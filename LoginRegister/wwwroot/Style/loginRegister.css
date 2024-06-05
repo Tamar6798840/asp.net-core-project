@@ -1,0 +1,33 @@
+﻿body{
+    background-color:deeppink
+}
+input {
+    background-color: greenyellow;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+button {
+    font-size: 30px;
+    color: deeppink;
+    text-align: center;
+}
+
+#welcome{
+    background-color:deeppink;
+    font-size:60px;
+    color:white;
+}
+a{
+    color:white;
+    font-size:22px;
+}
+
+
+
+
+
+

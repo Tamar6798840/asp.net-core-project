@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script src="../scripts/Services.js"></script>
+    <link href="../Style/loginRegister.css" rel="stylesheet" />
+</head>
+<body>
+    <img src="../pictures/icons/1.png" />
+    <h1 id="welcome"></h1>
+
+    <script>document.getElementById("welcome").innerHTML = "welcome "+ JSON.parse(localStorage.getItem("User")).userName</script>
+    <br />
+    <a href="Products.html">are you want to start the shopping?</a>
+    <br /><br />
+    <button onclick="update()">Update?</button>
+    <br /><br />
+    <div id="register" style="visibility:hidden">
+        <label>user name</label>
+        <input id="userName" />
+        <br />    <br />
+        <label>password</label>
+        <input id="password" type="password" />
+        <progress id="progress" value="0" max="4"></progress><br />
+        <br />    <br />
+        <label>first name</label>
+        <input id="firstName" />
+        <br />    <br />
+        <label>last name</label>
+        <input id="lastName" />
+        <br />    <br />
+        <button onclick="save()">Save</button>
+    </div>
+
+</body>
+
+</html>
